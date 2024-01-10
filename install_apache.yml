@@ -6,7 +6,7 @@
 
   - name: Update Repository Index
     apt:
-      Update_cache:yes
+      update_cache: yes
 
   - name: Install apache2 package
     apt:
